@@ -57,7 +57,7 @@ const Modal = (props) => {
 function App() {
     const [showModal, setShowModal] = useState(false);
     const [showTrigger, setShowTrigger] = useState(true);
-
+    
     return (
         <Container>
             <Modal show={showModal} onClose={setShowModal} setShowTrigger={setShowTrigger}/>
